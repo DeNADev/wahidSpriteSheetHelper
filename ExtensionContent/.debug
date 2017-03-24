@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<ExtensionList>
+	<Extension Id="com.dena.wahid.spriteSheetHelper">
+		<HostList>
+			<Host Name="FLPR" Port="8081"/> 
+		</HostList>
+	</Extension>
+</ExtensionList>
+

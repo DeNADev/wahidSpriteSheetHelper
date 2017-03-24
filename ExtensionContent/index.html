@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./ext.js"></script>
+<script src="./lib/CSInterface-4.0.0.js"></script>
+
+<link id="ppstyle" rel="stylesheet" type="text/css" href="./style.css">
+<title>wahidSpriteSheetHelper</title>
+<script type="text/javascript">
+  var init = function() {
+    var i18n = extension.initialize();
+    var labels = ['chkDeleteImagesLabel', 'btnReplace', 'fsetSettings'];
+    for (var i=0; i<labels.length; ++i) {
+      var label = labels[i];
+      document.getElementById(label).textContent = i18n.gettext(label);
+    }
+  }
+</script>
+<style type="text/css">
+  .label { font-weight: bold; font-size: large; }
+</style>
+</head>
+
+<body class="default" onload="init();">
+<div id="content">
+<fieldset>
+<legend id="fsetSettings"class="label">Settings</legend>
+<input type="checkbox" id="chkDeleteImages">
+  <span id="chkDeleteImagesLabel" class="label">
+    Remove individual image files.
+  </span>
+</input>
+</fieldset>
+<p style="text-align:center">
+<button id="btnReplace">Execute</button><br/>
+</p>
+</div>
+</body>
+
+</html>

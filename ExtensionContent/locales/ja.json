@@ -1,0 +1,40 @@
+{
+  "messages" : {
+    "" : {
+      "domain" : "messages",
+      "lang"   : "ja"
+    },
+    "Not configurated" : ["未設定"],
+    "Could not load the publishing settings." : 
+      ["パブリッシュ設定を取得できませんでした。"],
+    "Select the path for sprite sheets directory." : 
+      ["先にSpriteSheetのパスを指定してください。"],
+    "Could not find JSON-ARRAY formatted sprite sheet file.%s" :
+      ["JSON-ARRAY 形式で出力された SpriteSheet が見つかりませんでした。%s"],
+    "Rewriting ended normally." :
+      ["正常に書き換えが終了しました。"],
+    "Failed in rewriting of %s." :
+      ["%sの書き換えに失敗しました。"],
+    "Could not process %1s in %2s" :
+      ["%2sの中の%1sが処理できませんでした。"],
+    "Rename the image file, regenerate the sprite sheet and retry." : 
+      ["画像ファイル名を変更してスプライトシートを再生成し、再実行してください。"],
+    "Could not process some image files.  Check the Output window" :
+      ["いくつかの画像が処理できませんでした。「出力」ウインドウを確認してください。"],
+    "There is no need to rewrite. Please re-execute after re-publishing." :
+      ["書き換える必要がありません。パブリッシュし直してから再実行してください。"],
+    "Replacing %1s with %2s..." : ["%1sを%2sに置換中…"],
+    "Copying %1s to %2s..." : ["%1sを%2sにコピー中…"],
+    "Choose the directory contains SpriteSheet(*.json)" : 
+      ["SpriteSheet(*.json)が含まれるディレクトリを指定してください"],
+    "Could not find current Flash document." :
+      ["Flashドキュメントが開かれていません。"],
+    "This Flash document is never saved.  Save and retry." :
+      ["Flashドキュメントが一度も保存されていません。先に保存してください。"],
+    "Change the path of OutputFile." :
+      ["パブリッシュ先を取得できません。パブリッシュ設定を開き、出力ファイルを再設定してください。"],
+    "chkDeleteImagesLabel" : ["SpriteSheetに組み入れた画像を消す"],
+    "btnReplace" : ["書き換える"],
+    "fsetSettings" : ["設定"]
+  }
+}

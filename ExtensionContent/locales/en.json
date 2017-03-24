@@ -1,0 +1,37 @@
+{
+  "messages" : {
+    "" : {
+      "domain" : "messages",
+      "lang"   : "en"
+    },
+    "Not configurated" : ["Not configurated"],
+    "Could not load the publishing settings." :
+      ["Could not load the publishing settings."],
+    "Select the path for sprite sheets directory." :
+      ["Select the path for sprite sheets directory."],
+    "Could not find JSON-ARRAY formatted sprite sheet file.%s" :
+      ["Could not find JSON-ARRAY formatted sprite sheet file.%s"],
+    "Rewriting ended normally." : ["Rewriting ended normally."],
+    "Failed in rewriting of %s." : ["Failed in rewriting of %s."],
+    "Could not process %1s in %2s" : ["Could not process %1s in %2s."],
+    "Rename the image file, regenerate the sprite sheet and retry." :
+      ["Rename the image file, regenerate the sprite sheet and retry."],
+    "Could not process some image files.  Check the Output window" :
+      ["Could not process some image files.  Check the Output window."],
+    "There is no need to rewrite. Please re-execute after re-publishing." :
+      ["There is no need to rewrite. Please re-execute after re-publishing."],
+    "Replacing %1s with %2s..." : ["Replacing %1s with %2s..."],
+    "Copying %1s to %2s..." : ["Copying %1s to %2s..."],
+    "Choose the directory contains SpriteSheet(*.json)" :
+      ["Choose the directory contains SpriteSheet(*.json)"],
+    "Could not find current Flash document." :
+      ["Could not find current Flash document."],
+    "This Flash document is never saved.  Save and retry." : 
+      ["This Flash document is never saved.  Save and retry."],
+    "Change the path of OutputFile." : 
+      ["Cannot retrieve the publish destination.  Change \"Output file\" in \"Publish settings\""],
+    "chkDeleteImagesLabel" : ["Remove individual image files."],
+    "btnReplace" : ["Execute"],
+    "fsetSettings" : ["Settings"]
+  }
+}

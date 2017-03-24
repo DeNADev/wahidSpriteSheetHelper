@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtensionManifest Version="4.0" ExtensionBundleId="com.dena.wahid.spriteSheetHelper" ExtensionBundleVersion="1.0.0"
+		ExtensionBundleName="wahidSpriteSheetHelper" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Legal href="https://github.com/DeNADev/wahidSpriteSheetHelper/blob/master/LICENSE.md"/>
+	<ExtensionList>
+		<Extension Id="com.dena.wahid.spriteSheetHelper" Version="1.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="FLPR" Version="[13.1,14.9]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="4.0" />
+
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.dena.wahid.spriteSheetHelper">
+
+			<DispatchInfo >
+				<Resources>
+				<MainPath>./index.html</MainPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>wahidSpriteSheetHelper</Menu>
+					<Geometry>
+						<Size>
+							<Height>240</Height>
+							<Width>640</Width>
+						</Size>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>
